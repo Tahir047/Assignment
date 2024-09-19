@@ -76,8 +76,11 @@ dependencies {
 //    implementation libs.koin.android.viewmodel
 //    implementation libs.koin.androidx.viewmodel // Update to the latest version
 
-    implementation "io.insert-koin:koin-core:3.0.1"
-    implementation "io.insert-koin:koin-android-viewmodel:2.2.3"
+    implementation libs.koin.core.v301
+    implementation libs.koin.android.viewmodel
+
+
+
 
 
     // Unit Testing

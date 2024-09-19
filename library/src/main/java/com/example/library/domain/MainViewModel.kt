@@ -10,7 +10,7 @@ import com.example.library.models.MediaResponse
 import kotlinx.coroutines.launch
 
 
-class MainViewModel(private val repository: MediaRepository) : ViewModel() {
+class MainViewModel( val repository: MediaRepository) : ViewModel() {
 
 
     private val _mediaItems = MutableLiveData<List<MediaItem>>()
